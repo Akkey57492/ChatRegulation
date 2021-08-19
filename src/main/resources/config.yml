@@ -1,0 +1,4 @@
+#チャットを有効にする
+chat-allow: true
+#チャット無効時のメッセージ
+chat-deny-message: "§c§l現在、チャットは無効になっています"

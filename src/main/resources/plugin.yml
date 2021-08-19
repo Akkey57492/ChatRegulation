@@ -1,0 +1,13 @@
+name: ChatRegulation
+version: '${project.version}'
+main: riyaya1528.paper.chatregulation.ChatRegulation
+api-version: 1.17
+commands:
+  chatregulation:
+    description: チャットの有効化(および無効化)を行えます
+    usage: /chatregulation <on / off>
+    permission: admin
+  regulationreload:
+    description: configのリロードを行います
+    usage: /regulationreload
+    permission: admin
